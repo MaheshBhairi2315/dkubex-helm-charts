@@ -1,0 +1,14 @@
+apiVersion: v2
+name: mongodb
+description: MongoDB NoSQL database
+type: application
+version: 1.0.0
+appVersion: "1.0"
+keywords:
+  - mongodb
+home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
+sources:
+  - https://github.com/MaheshBhairi2315/dkubex-helm-charts
+maintainers:
+  - name: DKubeX Team
+    email: support@dkubex.io

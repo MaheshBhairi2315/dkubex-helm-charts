@@ -1,0 +1,34 @@
+replicaCount: 1
+
+image:
+  repository: bitnami/postgresql
+  tag: "16"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5432
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+persistence:
+  enabled: false
+  size: 8Gi
+  storageClass: ""
+
+auth:
+  postgresPassword: "changeme"
+  database: "mydb"
+  username: "postgres"
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

@@ -1,0 +1,16 @@
+apiVersion: v2
+name: postgresql
+description: PostgreSQL is a powerful, open source object-relational database system
+type: application
+version: 1.0.0
+appVersion: "16.0"
+keywords:
+  - postgresql
+  - database
+  - sql
+home: https://www.postgresql.org/
+sources:
+  - https://github.com/MaheshBhairi2315/dkubex-helm-charts
+maintainers:
+  - name: DKubeX Team
+    email: support@dkubex.io
