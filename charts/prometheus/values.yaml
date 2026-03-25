@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/prometheus
-  tag: "2.48"
+  tag: "2.48.1"
   pullPolicy: IfNotPresent
 
 service:

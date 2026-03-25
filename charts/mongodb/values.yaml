@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/mongodb
-  tag: "7.0"
+  tag: "7.0.5"
   pullPolicy: IfNotPresent
 
 service:

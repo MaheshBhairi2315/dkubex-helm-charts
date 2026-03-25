@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/grafana
-  tag: "10.2"
+  tag: "10.2.3"
   pullPolicy: IfNotPresent
 
 service:

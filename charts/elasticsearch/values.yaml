@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/elasticsearch
-  tag: "8.11"
+  tag: "8.11.4"
   pullPolicy: IfNotPresent
 
 service:

@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/redis
-  tag: "7.2"
+  tag: "7.2.4"
   pullPolicy: IfNotPresent
 
 service:
