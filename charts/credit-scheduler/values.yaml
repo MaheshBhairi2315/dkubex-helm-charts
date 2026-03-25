@@ -1,9 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: ghcr.io/dev-oc-sb/credit_scheduler
   tag: "latest"
-  # TODO: Change to ghcr.io/dev-oc-sb/credit_scheduler:latest when GHCR access is fixed
   pullPolicy: IfNotPresent
 
 service:
