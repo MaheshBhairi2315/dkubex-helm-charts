@@ -1,11 +1,33 @@
 apiVersion: v1
 entries:
+  credit-scheduler:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-03-25T13:33:54.442127115Z"
+    description: Credit-based task scheduler with React frontend and FastAPI backend
+    digest: 6a7d73605986bae35751d834fa93e6ef0acd57328452a0257269ebb32f9261a8
+    home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
+    keywords:
+    - credit-scheduler
+    - scheduler
+    - task-management
+    maintainers:
+    - email: support@dkubex.io
+      name: DKubeX Team
+    name: credit-scheduler
+    sources:
+    - https://github.com/MaheshBhairi2315/dkubex-helm-charts
+    - https://github.com/Dev-OC-SB/credit_scheduler
+    type: application
+    urls:
+    - https://maheshbhairi2315.github.io/dkubex-helm-charts/credit-scheduler-1.0.0.tgz
+    version: 1.0.0
   elasticsearch:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.211367021Z"
+    created: "2026-03-25T13:33:54.442421646Z"
     description: Elasticsearch search engine
-    digest: 750f07edae89a82599b64e879a73808328a930b63e9e4a6cc41786417f99597d
+    digest: 12ea4bd0ce4931ed525cbdbf3667052a2752891590c225f7d2e41d001dc16aed
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - elasticsearch
@@ -22,9 +44,9 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.211658143Z"
+    created: "2026-03-25T13:33:54.442790768Z"
     description: Grafana monitoring
-    digest: f6dc1f9a07e9bfa92643314700614236d64e931c6d3884f607ba0c47823e85a8
+    digest: fe4bed95c542000750b15135f40a5be8108fb3e17f4c7c4bdfe9cc8c8ca8cfe8
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - grafana
@@ -41,9 +63,9 @@ entries:
   kafka:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.211945316Z"
+    created: "2026-03-25T13:33:54.443034589Z"
     description: Apache Kafka messaging
-    digest: 1107900a72a3f0735c54c8da71e41d8ecaa428d6807f409fa0207a20df3d7fdb
+    digest: 8844861279c55a9e0227c326235b5928ebd150faa3e18677a397b6fd960d71b8
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - kafka
@@ -60,9 +82,9 @@ entries:
   minio:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.212145927Z"
+    created: "2026-03-25T13:33:54.44321247Z"
     description: MinIO object storage
-    digest: b07a1ae2e9743722123dd2f6026957c1ba9d1d713b23441c63661d9ddce59a04
+    digest: 7903c72de229f514a907c4ea014d95cb00c679dfccad68fac6c146753c2c8a76
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - minio
@@ -79,9 +101,9 @@ entries:
   mongodb:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.212325248Z"
+    created: "2026-03-25T13:33:54.44336828Z"
     description: MongoDB NoSQL database
-    digest: ca94ff7d7d41cc51f369ab747361eb06e922ae729b75fc3c1be3b78208f24017
+    digest: 5b530a7c22b281d2e58667687ea593a7cdcefc0bacfe120ab8c85690e9c74639
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - mongodb
@@ -98,9 +120,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.21264865Z"
+    created: "2026-03-25T13:33:54.443576371Z"
     description: NGINX web server
-    digest: 3be8f88f3dd91272fce5f95d917e7611eaf442e9df4383891a0eba636d64ac0b
+    digest: fdc541fe2b4974397fa5fd5c30e9f868f93f3656aa4a861138b02202dca645e5
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - nginx
@@ -117,10 +139,10 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: "16.0"
-    created: "2026-03-25T11:54:11.212944672Z"
+    created: "2026-03-25T13:33:54.443851972Z"
     description: PostgreSQL is a powerful, open source object-relational database
       system
-    digest: 1482d3d8a89046e5f0ef34a274dd4f60137881f6aee192564c44c04c256b946c
+    digest: 4bd1367f08fb757beed40e72154a11c02200f2cacc90faecadcda4e8039f0358
     home: https://www.postgresql.org/
     keywords:
     - postgresql
@@ -139,9 +161,9 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.214454982Z"
+    created: "2026-03-25T13:33:54.444051244Z"
     description: Prometheus monitoring
-    digest: 92179abfa4c529ff0cda2f8d574dc71514f12afb689f843dede7b114e775d79e
+    digest: 109202264a0deab71dab85dafc9d2a1d2425015ad1e5dddabdc8b3e122822093
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - prometheus
@@ -158,9 +180,9 @@ entries:
   rabbitmq:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.214798434Z"
+    created: "2026-03-25T13:33:54.444258414Z"
     description: RabbitMQ message broker
-    digest: 7f478d7b46af21cdc5eefd0e490a9f0a2d10b57392e8316330ffffbe6924ff3f
+    digest: 35c442c6110edcb1ae2f77d75537df2e4a89fd72d7a31768c731ea0dfd2811d6
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - rabbitmq
@@ -177,9 +199,9 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-25T11:54:11.215073586Z"
+    created: "2026-03-25T13:33:54.444475935Z"
     description: Redis cache
-    digest: c4848e9e3d92ccda7d60bebacca1ff8096abdfcba343ed88089c82862e4b071f
+    digest: 5856641025dcd34bd06ccc88a2cb61736a83dfd559f870f46de92899fda1679e
     home: https://github.com/MaheshBhairi2315/dkubex-helm-charts
     keywords:
     - redis
@@ -193,114 +215,4 @@ entries:
     urls:
     - https://maheshbhairi2315.github.io/dkubex-helm-charts/redis-1.0.0.tgz
     version: 1.0.0
-  simple-elasticsearch:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.215237327Z"
-    description: Elasticsearch search engine
-    digest: 2e72bc7afdf962c35a9ba2631035656d13bf361c75146fa722f6587bc0ccdd74
-    name: simple-elasticsearch
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-elasticsearch-1.0.0.tgz
-    version: 1.0.0
-  simple-grafana:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.215444509Z"
-    description: Grafana monitoring dashboard
-    digest: 27ff745afc71453b572f28adf74b9e0632ee0084ba6b28512019e72ce52c323e
-    name: simple-grafana
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-grafana-1.0.0.tgz
-    version: 1.0.0
-  simple-kafka:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.215572489Z"
-    description: Apache Kafka message broker
-    digest: 198c9a0ea87cdb36ef9fd7e078ef52bfb2ef3ae485ad149fca1b920b6f75d41b
-    name: simple-kafka
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-kafka-1.0.0.tgz
-    version: 1.0.0
-  simple-minio:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.21571139Z"
-    description: MinIO object storage
-    digest: b8c1220db18a079e63d3bb58d39db6051420be9b17efeb0ef60fc2cd6ac7d778
-    name: simple-minio
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-minio-1.0.0.tgz
-    version: 1.0.0
-  simple-mongodb:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.215966352Z"
-    description: MongoDB NoSQL database
-    digest: 0e67379a6bc47e444230e93359407168594515df8e624c9f205cd6b8d4189f01
-    name: simple-mongodb
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-mongodb-1.0.0.tgz
-    version: 1.0.0
-  simple-nginx:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.216085763Z"
-    description: NGINX web server
-    digest: 5f65556f08c7931ffe697179a94d957edd20a2f085c189f1fac47502fa874cc9
-    name: simple-nginx
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-nginx-1.0.0.tgz
-    version: 1.0.0
-  simple-postgresql:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.216185613Z"
-    description: PostgreSQL database
-    digest: 3521eb3542b3fca85826363fed1bf15b226754df3b2599da9289a20b12a6239f
-    name: simple-postgresql
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-postgresql-1.0.0.tgz
-    version: 1.0.0
-  simple-prometheus:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.216307484Z"
-    description: Prometheus monitoring system
-    digest: 9dad0f5f7ccdb65013cf14d89fb891cca4c88d284d1aee4768191200e4b1ac0b
-    name: simple-prometheus
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-prometheus-1.0.0.tgz
-    version: 1.0.0
-  simple-rabbitmq:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.216622956Z"
-    description: RabbitMQ message broker
-    digest: 6edfae74dd58709cab876bde2a9c94d1cf20b80ad413c0c483264f90ed72950f
-    name: simple-rabbitmq
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-rabbitmq-1.0.0.tgz
-    version: 1.0.0
-  simple-redis:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-03-25T11:54:11.216794807Z"
-    description: Redis in-memory data store
-    digest: 0fe9266f8d50084b3ee649ab9fbc4ec7a75979819ce98e1920244500c53ad2d3
-    name: simple-redis
-    type: application
-    urls:
-    - https://maheshbhairi2315.github.io/dkubex-helm-charts/simple-redis-1.0.0.tgz
-    version: 1.0.0
-generated: "2026-03-25T11:54:11.211018769Z"
+generated: "2026-03-25T13:33:54.441673984Z"
