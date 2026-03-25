@@ -14,6 +14,8 @@ spec:
       labels:
         {{- include "credit-scheduler.selectorLabels" . | nindent 8 }}
     spec:
+      imagePullSecrets:
+      - name: ghcr-secret
       containers:
       - name: credit-scheduler
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
