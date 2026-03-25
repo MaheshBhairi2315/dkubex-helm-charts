@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/rabbitmq
-  tag: "3.12.12"
+  tag: "latest"
   pullPolicy: IfNotPresent
 
 service:

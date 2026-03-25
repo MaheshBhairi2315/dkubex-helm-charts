@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: bitnami/kafka
-  tag: "3.6.1"
+  tag: "latest"
   pullPolicy: IfNotPresent
 
 service:
