@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: bitnami/elasticsearch
-  tag: "latest"
+  repository: docker.elastic.co/elasticsearch/elasticsearch
+  tag: "8.11.0"
   pullPolicy: IfNotPresent
 
 service:

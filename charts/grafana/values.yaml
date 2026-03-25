@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: bitnami/grafana
+  repository: grafana/grafana
   tag: "latest"
   pullPolicy: IfNotPresent
 

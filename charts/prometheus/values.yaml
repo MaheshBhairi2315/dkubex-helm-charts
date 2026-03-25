@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: bitnami/prometheus
+  repository: prom/prometheus
   tag: "latest"
   pullPolicy: IfNotPresent
 

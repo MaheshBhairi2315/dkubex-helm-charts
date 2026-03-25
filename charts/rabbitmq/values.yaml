@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: bitnami/rabbitmq
+  repository: rabbitmq
   tag: "latest"
   pullPolicy: IfNotPresent
 
